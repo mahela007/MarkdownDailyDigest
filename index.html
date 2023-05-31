@@ -69,12 +69,30 @@ html{font-family:sans-serif;-ms-text-size-adjust:100%;-webkit-text-size-adjust:1
 </blockquote>
 <h3 id="heading-3">heading 3</h3>
 <p>These words must be in <strong>bold</strong> and <em>italic</em></p>
-<p>but not this table:<br />
-| Cell 1 | Cell 2 |<br />
-| ------- | ------ |<br />
-| Foo | ubarF |<br />
-| Bar | bare |<br />
-| Testing | this |</p>
+<p>but not this table:</p>
+<table>
+<thead>
+<tr class="header">
+<th>Cell 1</th>
+<th>Cell 2</th>
+</tr>
+</thead>
+<tbody>
+<tr class="odd">
+<td>Foo</td>
+<td>ubarF</td>
+</tr>
+<tr class="even">
+<td>Bar</td>
+<td>bare</td>
+</tr>
+<tr class="odd">
+<td>Testing</td>
+<td>this</td>
+</tr>
+</tbody>
+</table>
+<p>Markdown needs to think of this as a table as well.</p>
 <hr />
 <p>test text</p>
 </body>
