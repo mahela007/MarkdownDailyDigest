@@ -4,7 +4,7 @@
   <meta charset="utf-8" />
   <meta name="generator" content="pandoc" />
   <meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=yes" />
-  <title>Your Digest for Tuesday, Apr 09, 2024 09:59 AM</title>
+  <title>Your Digest for Tuesday, Apr 09, 2024 10:35 AM</title>
   <style>
     code{white-space: pre-wrap;}
     span.smallcaps{font-variant: small-caps;}
@@ -605,7 +605,7 @@ background-color:#686868
 </head>
 <body>
 <header id="title-block-header">
-<h1 class="title">Your Digest for Tuesday, Apr 09, 2024 09:59 AM</h1>
+<h1 class="title">Your Digest for Tuesday, Apr 09, 2024 10:35 AM</h1>
 </header>
 <hr />
 <blockquote>
@@ -706,12 +706,27 @@ It is indicated as an adjunct to maximally tolerated statin therapy. <a href="ht
 </ul>
 <h3 id="area-under-the-curve-auc"><strong>Area under the curve</strong> (AUC)</h3>
 <ul>
-<li>AUC is directly proportional to the amount of drug absorbed after administration (from any given route)<br />
-$$<br />
-AUC=\frac{{Dose}\times{Bioavailability}}{Total\space Clearance}<br />
-$$<br />
-#2022BSQ/Q17</li>
+<li>AUC is directly proportional to the amount of drug absorbed after administration (from any given route)</li>
+<li></li>
 </ul>
+<p>$$<br />
+AUC=\frac{{Dose}\times{Bioavailability}}{Total\space Clearance}<br />
+$$</p>
+<ul>
+<li>Therefore, the reporting unit for AUC is mg.h/L (milligram hours per liter)<a href="https://pharmaeducation.net/auc-in-pharmacokinetics/">Source</a></li>
+<li>For drugs with <em>liner</em> (aka First order) kinetics, the AUC <strong>is not affected by doring regime</strong> (provided the same total amount of drug is administered)
+<ul>
+<li>i.e 60mg/m2 stat dose of doxorubicin will have the same AUC as 3 doses of 20mg/m2 8 hours apart or a 60mg infusion given continuously.</li>
+<li>Therefore, the <strong>AUC for a 60mg dose can be used to estimate the AUC for a different regime</strong>. <a href="https://www.ncbi.nlm.nih.gov/books/NBK12815/">Source</a></li>
+</ul></li>
+<li>For an IV drug, AUC is given by</li>
+</ul>
+<p>$$<br />
+\Large{AUC = \frac{C_0}{λ}}<br />
+$$</p>
+<p>λ = <strong>elimination rate constant</strong> see [[#The elimination constant]]<br />
+<a href="https://sepia2.unil.ch/pharmacology/parameters/areaunderthecurve/">Source</a></p>
+<p>#2022BSQ/Q17</p>
 <blockquote>
 <p>[!INFO] It&#39;s not a large initial dose; it&#39;s small maintenance doses.<br />
 How to intuitively think about a loading dose:<br />
@@ -719,7 +734,24 @@ If a drug has a slow T1/2, that means it&#39;s eliminated slowly; So why would w
 It makes sense if you think about it the other way around;</p>
 <ul>
 <li>With a loading dose, we&#39;re giving a &quot;<em>normal</em>&quot; dose first and then following it up with low doses due to slow elimination.</li>
+<li>For bolus doses, maintenance dose = Desired concentration x Clearance x dosing interval / Bioavailability</li>
 </ul>
 </blockquote>
+<blockquote>
+<p>[!INFO]<br />
+Zero order = saturation<br />
+First order = non saturation = <em>linear</em> kinetics.<br />
+&quot;linear&quot; because rate of elimination is directly proportional to concentration.</p>
+</blockquote>
+<h1 id="effects-of-pregnancy-of-drug-pharmacokinetics">Effects of pregnancy of drug pharmacokinetics</h1>
+<p><a href="https://derangedphysiology.com/main/cicm-primary-exam/required-reading/variability-drug-response/Chapter%20241/changes-drug-response-during-pregnancy">Source</a></p>
+<ul>
+<li>Slow gastric emptying and <em>increased</em> gastric pH <strong>reduce</strong> absorption.</li>
+<li>Slower intestinal transit time <strong>increases</strong> absorption.</li>
+<li>Net effect: for most drugs absorption is unchanged.</li>
+<li><em>Progesterone</em> induces liver enzymes.</li>
+<li>Hepatobiliary clearance is reduced due to the cholestatic effects of <em>oestrogen</em>.</li>
+<li>Increased renal elimination due to increased GFR but renal reabosorption may increase for some drugs.</li>
+</ul>
 </body>
 </html>
